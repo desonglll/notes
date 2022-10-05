@@ -1,10 +1,10 @@
 ---
 title: changelog
-date: 2022/10/05/ 22:18:58
+date: 2022/10/05/ 22:18:59
 description: 
 ---
 
-```markdown
+```txt
 
 diff --git a/changelog.md b/changelog.md
 index 13ff3e7..f732c75 100644
@@ -87,6 +87,46 @@ index c1f038e..92ee05c 100644
 +echo -e "\n\`\`\`" >> changelog.md
  
  # echo tree directories to tree.md
+ 
+
+```
+```txt
+
+diff --git a/changelog.md b/changelog.md
+index effc1c3..c5f26af 100644
+--- a/changelog.md
++++ b/changelog.md
+@@ -1,10 +1,10 @@
+ ---
+ title: changelog
+-date: 2022/10/05/ 22:18:58
++date: 2022/10/05/ 22:18:59
+ description: 
+ ---
+ 
+-```markdown
++```txt
+ 
+ diff --git a/changelog.md b/changelog.md
+ index 13ff3e7..f732c75 100644
+@@ -90,3 +90,5 @@ index c1f038e..92ee05c 100644
+  
+ 
+ ```
++```txt
++
+diff --git a/deploy.sh b/deploy.sh
+index 92ee05c..9f96a81 100644
+--- a/deploy.sh
++++ b/deploy.sh
+@@ -5,7 +5,7 @@ time=$(date "+%Y-%m-%d %H:%M:%S")
+ 
+ # echo git diff
+ 
+-echo -e "\`\`\`markdown\n" >> changelog.md
++echo -e "\`\`\`txt\n" >> changelog.md
+ 
+ git diff >> changelog.md
  
 
 ```

@@ -5,7 +5,7 @@ time=$(date "+%Y-%m-%d %H:%M:%S")
 
 # echo git diff
 
-echo -e "\`\`\`markdown\n" >> changelog.md
+echo -e "\`\`\`txt\n" >> changelog.md
 
 git diff >> changelog.md
 
