@@ -9,7 +9,7 @@ echo -e "\`\`\`markdown\n" >> changelog.md
 
 git diff >> changelog.md
 
-echo -e "\n\`\`\`\n"
+echo -e "\n\`\`\`\n" >> changelog.md
 
 # echo tree directories to tree.md
 
