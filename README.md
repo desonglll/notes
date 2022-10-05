@@ -2,6 +2,8 @@
 
 ![alt](https://img.shields.io/badge/notes-mikeshinoda-brightgreen)
 
+![alt](https://img.shields.io/badge/notes-mikeshinoda-brightgreen)
+
 ## Directories Summary
 
 [Tree](./TREE.md)
@@ -107,3 +109,5 @@ Last updated by **mikeshinoda** at: 2022-10-04 15:03:06
 Last updated by **mikeshinoda** at: 2022-10-04 18:18:26
 
 Last updated by **mikeshinoda** at: 2022-10-04 20:20:07
+
+Last updated by **mikeshinoda** at: 2022-10-05 22:18:09

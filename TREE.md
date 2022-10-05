@@ -14,6 +14,7 @@
 │       └── 第一章-职业理念.md
 ├── 01.效率工具
 │   ├── Mac电脑iterm中配置neovim入门与实践.md
+│   ├── Mac配置neovim.md
 │   ├── VScode配置.md
 │   ├── 我的Mac应用清单以及系统配置整理.md
 │   ├── 必学工具
@@ -48,6 +49,7 @@
 ├── LINK.md
 ├── README.md
 ├── TREE.md
+├── changelog.md
 ├── deploy.sh
 ├── markdown-test.md
 ├── 博主笔记
@@ -2839,6 +2841,6 @@
 ├── 英语单词.md
 └── 每天起床头件事，先背一遍展开式.md
 
-241 directories, 2594 files
+241 directories, 2596 files
 
 ```

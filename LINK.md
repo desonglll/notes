@@ -22,6 +22,8 @@
 
 [./01.效率工具/Mac电脑iterm中配置neovim入门与实践.md](././01.效率工具/Mac电脑iterm中配置neovim入门与实践.md)
 
+[./01.效率工具/Mac配置neovim.md](././01.效率工具/Mac配置neovim.md)
+
 [./01.效率工具/VScode配置.md](././01.效率工具/VScode配置.md)
 
 [./01.效率工具/我的Mac应用清单以及系统配置整理.md](././01.效率工具/我的Mac应用清单以及系统配置整理.md)
@@ -91,6 +93,8 @@
 [./README.md](././README.md)
 
 [./TREE.md](././TREE.md)
+
+[./changelog.md](././changelog.md)
 
 [./deploy.sh](././deploy.sh)
 
@@ -6206,7 +6210,7 @@
 
 [directories,](./directories,)
 
-[2594](./2594)
+[2596](./2596)
 
 [files](./files)
 
