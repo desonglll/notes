@@ -3,15 +3,6 @@
 ```shell
 
 .
-├── 00.理论学习笔记
-│   ├── 教师资格证
-│   │   └── 第一章-职业理念.md
-│   ├── 数据结构
-│   │   └── 考研-数据结构第一章绪论.md
-│   ├── 考研
-│   │   └── 考研作息表.md
-│   └── 高等数学
-│       └── 第八讲-一元函数积分学的概念与计算.md
 ├── 01.效率工具
 │   ├── Mac电脑iterm中配置neovim入门与实践.md
 │   ├── Mac配置neovim.md
@@ -33,11 +24,6 @@
 │   │   ├── 前端学习-React学习.md
 │   │   └── 前端学习-html5css_tips.md
 │   └── 后端学习
-│       ├── 后端学习-公众号给女朋友推送消息.md
-│       ├── 后端学习-千锋Java学习.md
-│       ├── 后端学习-千锋Python学习.md
-│       ├── 后端学习-数据结构代码.md
-│       └── 后端学习-自整理常用Java API.md
 ├── 03.阅读
 │   ├── Steve-Paul-Jobs-Stanford.md
 │   ├── 刘勖雯书单.md
@@ -2824,9 +2810,10 @@
 │   ├── github:justjavac:free-programming-books-zh_CN
 │   └── github:reactnativecn:react-native-guide
 │       └── README.md
+├── 团支部管理员信息.md
 ├── 每天起床头件事，先背一遍展开式.md
 └── 英语单词.md
 
-240 directories, 2583 files
+235 directories, 2575 files
 
 ```
