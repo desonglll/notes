@@ -9,7 +9,7 @@
 │   ├── VScode配置.md
 │   ├── 实用网站.md
 │   ├── 必学工具
-│   │   ├── Github相关的明令.md
+│   │   ├── Github相关的命令.md
 │   │   ├── MarkDown学习.md
 │   │   ├── Shell命令.md
 │   │   └── Vim命令.md
