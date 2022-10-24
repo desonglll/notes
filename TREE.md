@@ -5,11 +5,11 @@
 .
 ├── 01.效率工具
 │   ├── Mac电脑iterm中配置neovim入门与实践.md
-│   ├── Mac配置neovim.md
 │   ├── VScode配置.md
 │   ├── 实用网站.md
 │   ├── 必学工具
 │   │   ├── Github相关的命令.md
+│   │   ├── Mac配置neovim.md
 │   │   ├── MarkDown学习.md
 │   │   ├── Shell命令.md
 │   │   └── Vim命令.md

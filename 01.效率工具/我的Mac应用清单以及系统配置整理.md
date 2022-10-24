@@ -112,3 +112,10 @@ description:
   - 目前添加了8个额外的插件，可以预览md文件，以及图片大小等等功能。
   - 地址链接: https://pan.baidu.com/s/1Q2HI9SLPDDntCSg5TdoVHA 提取码: `nkrx`
   - [插件官方下载地址](http://www.quicklookplugins.com/)
+
+```
+brew install screenfetch
+brew install neofetch #安装
+neofetch #运行
+```
+

@@ -34,6 +34,10 @@ You will like those projects!
 
 ---
 
+$$
+e^{i\pi}=-1
+$$
+
 # h1 Heading 8-)
 
 ## h2 Heading
