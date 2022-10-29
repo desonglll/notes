@@ -373,3 +373,13 @@ cnoreabbrev find Ag
 
 ```
 
+## 后续
+
+```bash
+pip3 install jedi
+```
+
+```
+pip3 instal pynvim
+```
+
