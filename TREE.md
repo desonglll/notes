@@ -4,6 +4,7 @@
 
 .
 ├── 01.效率工具
+│   ├── CS学习-环境配置等笔记.md
 │   ├── Mac电脑iterm中配置neovim入门与实践.md
 │   ├── VScode配置.md
 │   ├── 实用网站.md
@@ -19,7 +20,6 @@
 ├── 02.CS学习
 │   ├── CS学习-Java实用代码.md
 │   ├── CS学习-博客搭建.md
-│   ├── CS学习-环境配置等笔记.md
 │   ├── CS学习-配置Mac.md
 │   ├── 前端学习
 │   │   ├── github_markdown.css

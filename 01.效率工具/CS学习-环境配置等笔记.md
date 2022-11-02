@@ -129,6 +129,12 @@ rm -rf $(brew --repo homebrew/core)
 brew tap homebrew/core
 ```
 
+### 替换国内镜像源
+
+https://blog.csdn.net/m0_50324291/article/details/108564732
+
+
+
 ## 安装fishshell
 
 Fishshell的官方网站 [https://fishshell.com/](https://fishshell.com/)
