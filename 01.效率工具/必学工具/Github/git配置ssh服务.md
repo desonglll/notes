@@ -50,14 +50,22 @@ git config user.email
 1. 配置用户名：
 
 ```
-git config --global user.name "xxx"
+git config --global user.name "desonglll"
 ```
 
 2. 配置用户邮箱
 
 ```
-git config --global user.email "xxx"
+git config --global user.email "lindesong666@163.com"
 ```
+
+3. 配置用户密码
+
+```
+git config --global user.password "Lindesong7758?"
+```
+
+
 
 ### 三、查看是否配置过SSH Key(密钥)
 
@@ -80,7 +88,7 @@ ls
 输入:
 
 ```
-ssh-keygen -t rsa -C "你的邮箱" 
+ssh-keygen -t rsa -C "lindesong666@163.com" 
 ```
 
 &emsp; 此处会提示 `Enter file in which to save the key (/Users/shutong/.ssh/id_rsa):` 这样一段内容, 让我们输入文件名，如果第3步的文件存在的话最好在这里修改一下文件名以防覆盖之前的内容；如果第3步的文件不存在的话则直接按 `enter` 键就好了。

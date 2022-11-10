@@ -18,6 +18,8 @@
 
 [./01.效率工具/必学工具/Github/git配置ssh服务.md](././01.效率工具/必学工具/Github/git配置ssh服务.md)
 
+[./01.效率工具/必学工具/Github/云服务器.md](././01.效率工具/必学工具/Github/云服务器.md)
+
 [./01.效率工具/必学工具/Mac配置neovim.md](././01.效率工具/必学工具/Mac配置neovim.md)
 
 [./01.效率工具/必学工具/MarkDown学习.md](././01.效率工具/必学工具/MarkDown学习.md)
@@ -6190,7 +6192,7 @@
 
 [directories,](./directories,)
 
-[2585](./2585)
+[2586](./2586)
 
 [files](./files)
 

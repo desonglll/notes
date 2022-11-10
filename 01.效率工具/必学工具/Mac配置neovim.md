@@ -380,6 +380,48 @@ pip3 install jedi
 ```
 
 ```
-pip3 instal pynvim
+pip3 install pynvim
+```
+
+
+
+## 案件冲突
+
+在命令模式下输入：`verbose map <key>`就可以查看按键`<key>`的映射
+
+
+
+## Github Update
+
+```shell
+cp -r ./ ~/Desktop/nvim-update
+
+cd ~/Desktop/nvim-update 
+
+# 删除./文件夹下所有名字为.git的文件夹
+
+find ./ -name .git |xargs rm -rf
+
+find ./ -name .github |xargs rm -rf
+
+# Echo time information to Changelog file.
+time=$(date "+%Y-%m-%d %H:%M:%S")
+
+# echo username and updated date to README.md
+
+echo -e "\nLast updated by **`whoami`** at: "${time} >> "README.md"
+
+# github deploy
+
+git init
+git add .
+git commit -m "$(date "+%Y-%m-%d %H:%M:%S")"
+git branch -M main
+git remote add origin git@github.com:desonglll/neovim.git
+git push -u origin main -f
+
+cd ~/Desktop
+
+rm -rf nvim-update
 ```
 

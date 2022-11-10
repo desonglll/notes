@@ -22695,3 +22695,110 @@ index b72fe24..ddcd839 100644
 \ No newline at end of file
 
 ```
+```txt
+
+diff --git "a/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Github/git\351\205\215\347\275\256ssh\346\234\215\345\212\241.md" "b/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Github/git\351\205\215\347\275\256ssh\346\234\215\345\212\241.md"
+index f03a035..2aca4dc 100644
+--- "a/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Github/git\351\205\215\347\275\256ssh\346\234\215\345\212\241.md"
++++ "b/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Github/git\351\205\215\347\275\256ssh\346\234\215\345\212\241.md"
+@@ -50,15 +50,23 @@ git config user.email
+ 1. 配置用户名：
+ 
+ ```
+-git config --global user.name "xxx"
++git config --global user.name "desonglll"
+ ```
+ 
+ 2. 配置用户邮箱
+ 
+ ```
+-git config --global user.email "xxx"
++git config --global user.email "lindesong666@163.com"
+ ```
+ 
++3. 配置用户密码
++
++```
++git config --global user.password "Lindesong7758?"
++```
++
++
++
+ ### 三、查看是否配置过SSH Key(密钥)
+ 
+ 1. 进入ssh文件夹
+@@ -80,7 +88,7 @@ ls
+ 输入:
+ 
+ ```
+-ssh-keygen -t rsa -C "你的邮箱" 
++ssh-keygen -t rsa -C "lindesong666@163.com" 
+ ```
+ 
+ &emsp; 此处会提示 `Enter file in which to save the key (/Users/shutong/.ssh/id_rsa):` 这样一段内容, 让我们输入文件名，如果第3步的文件存在的话最好在这里修改一下文件名以防覆盖之前的内容；如果第3步的文件不存在的话则直接按 `enter` 键就好了。
+diff --git "a/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Mac\351\205\215\347\275\256neovim.md" "b/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Mac\351\205\215\347\275\256neovim.md"
+index 0a22ee3..508476b 100644
+--- "a/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Mac\351\205\215\347\275\256neovim.md"
++++ "b/01.\346\225\210\347\216\207\345\267\245\345\205\267/\345\277\205\345\255\246\345\267\245\345\205\267/Mac\351\205\215\347\275\256neovim.md"
+@@ -380,6 +380,48 @@ pip3 install jedi
+ ```
+ 
+ ```
+-pip3 instal pynvim
++pip3 install pynvim
++```
++
++
++
++## 案件冲突
++
++在命令模式下输入：`verbose map <key>`就可以查看按键`<key>`的映射
++
++
++
++## Github Update
++
++```shell
++cp -r ./ ~/Desktop/nvim-update
++
++cd ~/Desktop/nvim-update 
++
++# 删除./文件夹下所有名字为.git的文件夹
++
++find ./ -name .git |xargs rm -rf
++
++find ./ -name .github |xargs rm -rf
++
++# Echo time information to Changelog file.
++time=$(date "+%Y-%m-%d %H:%M:%S")
++
++# echo username and updated date to README.md
++
++echo -e "\nLast updated by **`whoami`** at: "${time} >> "README.md"
++
++# github deploy
++
++git init
++git add .
++git commit -m "$(date "+%Y-%m-%d %H:%M:%S")"
++git branch -M main
++git remote add origin git@github.com:desonglll/neovim.git
++git push -u origin main -f
++
++cd ~/Desktop
++
++rm -rf nvim-update
+ ```
+ 
+diff --git a/changelog.md b/changelog.md
+index 28fd5b5..25a766b 100644
+--- a/changelog.md
++++ b/changelog.md
+@@ -22695,3 +22695,5 @@ index b72fe24..ddcd839 100644
+ \ No newline at end of file
+ 
+ ```
++```txt
++
+
+```
