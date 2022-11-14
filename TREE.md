@@ -40,15 +40,11 @@
 │   └── 排球
 │       ├── 排球转轮.pdf
 │       └── 排球转轮.sketch
-├── LINK.md
 ├── README.md
 ├── TREE.md
 ├── changelog.md
 ├── deploy.sh
 ├── markdown-test.md
-├── 杂
-│   ├── 收截图.md
-│   └── 团支部管理员信息.md
 ├── 课程
 │   ├── 考研
 │   │   └── 考研作息表.md
@@ -2832,6 +2828,6 @@
 │       └── README.md
 └── 每天起床头件事，先背一遍展开式.md
 
-242 directories, 2586 files
+241 directories, 2583 files
 
 ```

@@ -29,6 +29,7 @@ cover:
   - [3. 添加Homebrew到环境变量](#3-添加homebrew到环境变量)
   - [有关报错](#有关报错)
     - [brew update的错误](#brew-update的错误)
+  - [替换国内镜像源](#替换国内镜像源)
 - [安装fishshell](#安装fishshell)
   - [使用Homebrew安装](#使用homebrew安装)
   - [讲fishshell设为默认Terminal](#讲fishshell设为默认terminal)
