@@ -7,6 +7,7 @@
 │   ├── CS学习-环境配置等笔记.md
 │   ├── Mac电脑iterm中配置neovim入门与实践.md
 │   ├── VScode配置.md
+│   ├── nvim.md
 │   ├── 我的Mac应用清单以及系统配置整理.md
 │   ├── 必学工具
 │   │   ├── Github
@@ -2829,6 +2830,6 @@
 ├── 优质博主.md
 └── 每天起床头件事，先背一遍展开式.md
 
-241 directories, 2584 files
+241 directories, 2585 files
 
 ```
