@@ -87,6 +87,7 @@ cover: https://pic.3gbizhi.com/2020/0414/thumb_1680_0_20200414032900672.jpg
         - [通过静态方法创建Locale](#通过静态方法创建locale)
         - [ResourceBundle类](#resourcebundle类)
   - [087 程序国际化ResourceBundle与动态文本处理](#087-程序国际化resourcebundle与动态文本处理)
+  - [088 Math与Random类](#088-math与random类)
 
 <iframe src="//player.bilibili.com/player.html?aid=883829806&bvid=BV1FK4y1x7Ny&cid=405715221&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -1209,3 +1210,6 @@ if("admin".equals(username) && "123".equals(password)){
  System.out.println(r.getString("login.error"));
 }
 ```
+
+### 088 Math与Random类
+
