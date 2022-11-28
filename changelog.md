@@ -35744,3 +35744,31 @@ index 5bef7fb..0000000
 -> 3. 数据的**存储结构**会**影响对数据运算的速度**
 
 ```
+```txt
+
+diff --git "a/01.\346\225\210\347\216\207\345\267\245\345\205\267/VScode\351\205\215\347\275\256.md" "b/01.\346\225\210\347\216\207\345\267\245\345\205\267/VScode\351\205\215\347\275\256.md"
+index 99b1b2c..dd358cd 100644
+--- "a/01.\346\225\210\347\216\207\345\267\245\345\205\267/VScode\351\205\215\347\275\256.md"
++++ "b/01.\346\225\210\347\216\207\345\267\245\345\205\267/VScode\351\205\215\347\275\256.md"
+@@ -156,3 +156,9 @@ CSS rules to specify families
+ font-family: 'Noto Sans SC', sans-serif;
+ font-family: 'Noto Sans TC', sans-serif;
+ ```
++
++
++
++## Personal access tokens (classic)
++
++vcode_sync: `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`
+diff --git a/changelog.md b/changelog.md
+index cd87a33..ec97d22 100644
+--- a/changelog.md
++++ b/changelog.md
+@@ -35744,3 +35744,5 @@ index 5bef7fb..0000000
+ -> 3. 数据的**存储结构**会**影响对数据运算的速度**
+ 
+ ```
++```txt
++
+
+```

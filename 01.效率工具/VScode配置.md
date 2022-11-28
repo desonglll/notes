@@ -156,3 +156,9 @@ CSS rules to specify families
 font-family: 'Noto Sans SC', sans-serif;
 font-family: 'Noto Sans TC', sans-serif;
 ```
+
+
+
+## Personal access tokens (classic)
+
+vcode_sync: `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`
