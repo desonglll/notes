@@ -136,6 +136,17 @@ https://blog.csdn.net/m0_50324291/article/details/108564732
 
 
 
+## npm换源
+
+```shell
+//换源
+npm config set registry https://registry.npm.taobao.org
+//配置后通过以下方法验证是否成功
+npm config get registry
+```
+
+
+
 ## 安装fishshell
 
 Fishshell的官方网站 [https://fishshell.com/](https://fishshell.com/)

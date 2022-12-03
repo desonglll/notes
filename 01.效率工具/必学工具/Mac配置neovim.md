@@ -425,3 +425,4 @@ cd ~/Desktop
 rm -rf nvim-update
 ```
 
+https://sbulav.github.io/vim/neovim-setting-up-luasnip/
